@@ -1,4 +1,4 @@
-package apkYukleme;
+package tests.apkYukleme;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -12,9 +12,8 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class apkYukle {
+
     AndroidDriver<AndroidElement> driver;
-
-
 
     @Test
     public void apkYukleme() throws MalformedURLException {
