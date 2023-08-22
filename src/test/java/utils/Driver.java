@@ -33,8 +33,11 @@ public class Driver {
             caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, ANDROIDVERSION);
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM);
             caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, OTOMASYON_ISMI);
-            caps.setCapability("appPackage","com.ciceksepeti.ciceksepeti"); // Hangi uygulama uzerinde calismak istiyorsak apk infodan o uygulamanin degerini aliyoruz
-            caps.setCapability("appActivity","com.ciceksepeti.ciceksepeti.home.HomeActivity"); // Uygulamayi actiktan sonra hangi sayfadan baslayacagimizi orn; Anasayfa, Profil, vb
+
+            caps.setCapability("appPackage","com.ciceksepeti.ciceksepeti");
+            caps.setCapability("appActivity","com.ciceksepeti.ciceksepeti.home.HomeActivity");
+
+
             caps.setCapability(MobileCapabilityType.NO_RESET,false);
             // true uygulama sifirlanmiyor onceki adimlari muhafaza ediyor
             //false ise her test baslangicinda uygulamayi sifirliyor ve uygulama en bastan basliyor

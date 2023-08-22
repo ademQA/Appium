@@ -26,6 +26,30 @@ public class CicekSepetiPage {
     @FindBy(id = "android:id/button1")
     public WebElement tamamButonu;
 
+    @FindBy(xpath = "(//*[@class='android.widget.TextView'])[2]")
+    public WebElement ilkAdresBileseni;
+
+    @FindBy(id = "com.ciceksepeti.ciceksepeti:id/apply")
+    public WebElement kaydet;
+
+    @FindBy(id = "com.ciceksepeti.ciceksepeti:id/goOn")
+    public WebElement devamEt;
+
+    @FindBy(xpath = "//android.widget.LinearLayout[@content-desc=\"Üye Ol\"]")
+    public WebElement uyeOl;
+
+    @FindBy(id = "com.ciceksepeti.ciceksepeti:id/email")
+    public WebElement email;
+
+
+    @FindBy(id = "com.ciceksepeti.ciceksepeti:id/password")
+    public WebElement password;
+
+    @FindBy(id = "com.ciceksepeti.ciceksepeti:id/name")
+    public WebElement name;
+
+
+
 
 
 
