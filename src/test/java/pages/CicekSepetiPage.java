@@ -47,7 +47,8 @@ public class CicekSepetiPage {
 
     @FindBy(id = "com.ciceksepeti.ciceksepeti:id/name")
     public WebElement name;
-
+    @FindBy(id = "com.ciceksepeti.ciceksepeti:id/login")
+    public WebElement uyeOlSon;
 
 
 

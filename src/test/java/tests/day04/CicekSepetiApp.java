@@ -99,6 +99,13 @@ public class CicekSepetiApp {
         //  20.Ad soyad kısmına isim giriniz
         cicekSepetiPage.name.click();
         cicekSepetiPage.name.sendKeys(ConfigReader.getProperty("name"));
+        ReusableMethods.koordinatTiklama(986, 1706, 1000);
+
+        //  21. Okudum kabul ediyorum kutusunu seçip üye ol butonuna tıklayınız
+        ReusableMethods.koordinatTiklama(99, 1247, 1000);
+        cicekSepetiPage.uyeOlSon.click();
+
+
 
 
     }
