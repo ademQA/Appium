@@ -74,5 +74,6 @@ public class AileButcem {
         // ardindan degisiklerin yapildigini dogrulayin
         AndroidElement successUpdate = driver.findElementByXPath("//*[@text='Değişiklikler başarıyla kaydedildi.']");
         Assert.assertTrue(successUpdate.isDisplayed());
+        System.out.println();
     }
 }
